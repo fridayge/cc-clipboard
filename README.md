@@ -10,7 +10,7 @@ macOS 菜单栏工具 — 一键复制 Claude Code 常用指令。
 
 要求：macOS 13+，Apple Silicon（M1/M2/M3/M4）
 
-1. 下载 [最新 Release](https://github.com/glping/cc-clipboard/releases) 中的 `CCClipboard-x.x.x.zip`
+1. 下载 [最新 Release](https://github.com/fridayge/cc-clipboard/releases) 中的 `CCClipboard-x.x.x.zip`
 2. 解压，将 `CCClipboard.app` 拖入 `应用程序` 文件夹
 3. 首次运行：**右键 → 打开**（因未签名，Gatekeeper 会拦截双击打开）
 4. 菜单栏出现 📋 图标，点击即可使用
@@ -21,7 +21,7 @@ macOS 菜单栏工具 — 一键复制 Claude Code 常用指令。
 
 ```bash
 pip install rumps
-git clone https://github.com/glping/cc-clipboard.git
+git clone https://github.com/fridayge/cc-clipboard.git
 cd cc-clipboard/python
 python cc-clipboard.py
 ```
